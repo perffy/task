@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+		"psr-4": {
+			"src\\iterfaces\\LookUpService\\": "LookUpService",
+			"src\\iterfaces\\RateService\\": "RateService",
+			"src\\services\\BinService\\": "BinService",
+			"src\\services\\ExchangeService\\": "ExchangeService"
+		}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+	
+}
